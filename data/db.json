@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "JAVA",
+      "cehcked": true,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "React Js",
+      "cehcked": true,
+      "checked": true
+    },
+    {
+      "id": 3,
+      "name": "Angular",
+      "cehcked": false
+    },
+    {
+      "id": 5,
+      "name": "VueJs",
+      "cehcked": false
+    },
+    {
+      "name": "PHP",
+      "checked": false,
+      "id": 6
+    },
+    {
+      "name": "JS",
+      "checked": true,
+      "id": 7
+    }
+  ]
+}

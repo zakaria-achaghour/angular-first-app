@@ -1,0 +1,24 @@
+<div class="card ">
+    <div class="card-body">
+      {{productForm.value | json}}
+      <form [formGroup]="productForm" (ngSubmit)="saveProduct()">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="email" class="form-control" formControlName="name"
+           id="name">
+        </div>
+       
+        <div class="form-check">
+          <input class="form-check-input" 
+          type="checkbox" formControlName="checked">
+          <label class="form-check-label" for="">
+            Checked
+          </label>
+        </div>
+
+        <button [disabled]="productForm.invalid" type="submit" class="btn btn-outline-info">Save</button>
+      </form>
+      
+     
+    </div>
+  </div>
